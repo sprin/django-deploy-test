@@ -21,4 +21,8 @@ class Migration(migrations.Migration):
             },
             bases=(models.Model,),
         ),
+        migrations.RunSQL('''
+INSERT INTO phrase_of_the_day(phrase) VALUES
+    ('¡Qué extraño!')
+        ''')
     ]
