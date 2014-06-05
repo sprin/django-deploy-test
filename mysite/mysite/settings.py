@@ -20,6 +20,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 SECRET_KEY = os.environ['SECRET_KEY']
 DEFAULT_DATABASE = os.environ['DEFAULT_DATABASE']
+STATIC_ROOT = os.environ['STATIC_ROOT']
+STATIC_URL = os.environ['STATIC_URL']
 
 TEMPLATE_DEBUG = True
 DEBUG = True
