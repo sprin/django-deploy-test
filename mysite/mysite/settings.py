@@ -22,6 +22,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DEFAULT_DATABASE = os.environ['DEFAULT_DATABASE']
 STATIC_ROOT = os.environ['STATIC_ROOT']
 STATIC_URL = os.environ['STATIC_URL']
+RABBITMQ_URL = os.environ['RABBITMQ_URL']
 
 TEMPLATE_DEBUG = True
 DEBUG = True

@@ -7,6 +7,7 @@ setup(
         'Django==1.7b4',
         'gunicorn==18.0',
         'psycopg2==2.5.3',
+        'kombu==3.0.18',
         'dj-database-url==0.3.0'
     ],
     dependency_links=[
